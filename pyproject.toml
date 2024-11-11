@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "decagon-takehome"
+version = "0.1.0"
+description = ""
+authors = ["alexjubs <alexjabbour7@outloook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+pyperclip = "^1.9.0"
+openai = "^1.54.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 88
+target-version = ['py37']
+include = '\.pyi?$'
+
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]

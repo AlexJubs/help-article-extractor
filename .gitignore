@@ -1,0 +1,5 @@
+.DS_Store
+openai_key.txt
+.vscode/
+__pycache__/
+.pylintrc
