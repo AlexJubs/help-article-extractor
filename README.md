@@ -4,6 +4,11 @@
 
 This project is designed to scrape a public knowledge base (e.g., the Notion Help Center), extract core text content, and chunk it into smaller, logically grouped sections for better readability and processing. The program ensures content is clean, well-organized, and adheres to specified chunking guidelines.
 
+## Demo
+
+https://github.com/user-attachments/assets/9277ac8d-3d2e-46a3-ba31-bfca2bd6d019
+
+
 ---
 
 ## Features
